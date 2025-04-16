@@ -5,6 +5,7 @@ import ProductCard from '../components/ProductCard';
 import { Link } from "react-router";
 
 import woodyAssetUrl from "../assets/woody-nawt.jpg"
+import brothersHeroAssetUrl from "../assets/brothers-hero.png"
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -53,7 +54,7 @@ export default function HomePage() {
             <div className="aspect-w-16 aspect-h-9 bg-gray-200 rounded-lg overflow-hidden">
               {/* Placeholder for featured hunting image */}
               <div className="w-full h-full flex items-center justify-center text-gray-400">
-                [Featured Hunting Image]
+                <img src={brothersHeroAssetUrl} alt="Featured Hunting Image" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>

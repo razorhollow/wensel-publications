@@ -113,94 +113,97 @@ const AboutPage = () => {
         </section>
 
         {/* Media & Contributions Section */}
-        <section className="mb-8 sm:mb-12">
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-4 sm:mb-6">Media & Contributions</h2>
-          <div className="bg-white rounded-lg shadow-sm p-4 sm:p-8">
-            <div className="grid gap-8">
-              {/* Books & Publications */}
-              <div className="border-b border-gray-200 pb-6 sm:pb-8">
-                <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mb-3 sm:mb-4">Books & Publications</h3>
-                <div className="grid sm:grid-cols-2 gap-4">
-                  <div className="bg-gray-50 rounded-lg p-4">
-                    <h4 className="font-semibold text-gray-800 mb-2">Gene's Books</h4>
-                    <ul className="space-y-2 text-gray-700">
-                      <li className="flex items-start">
-                        <span className="text-blue-600 mr-2">•</span>
-                        <strong>Whitetails, Etc.</strong> (2024) - Latest release
-                      </li>
-                      <li className="flex items-start">
-                        <span className="text-blue-600 mr-2">•</span>
-                        <strong>Come November</strong> - Whitetail hunting classic
-                      </li>
-                      <li className="flex items-start">
-                        <span className="text-blue-600 mr-2">•</span>
-                        <strong>Buckskin and Bone</strong> - Advanced tactics
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="bg-gray-50 rounded-lg p-4">
-                    <h4 className="font-semibold text-gray-800 mb-2">Barry's Books</h4>
-                    <ul className="space-y-2 text-gray-700">
-                      <li className="flex items-start">
-                        <span className="text-blue-600 mr-2">•</span>
-                        <strong>The Crooked Hat Chronicles</strong> - Hunting tales
-                      </li>
-                      <li className="flex items-start">
-                        <span className="text-blue-600 mr-2">•</span>
-                        <strong>The Old Man and the Tree</strong> - Latest release
-                      </li>
-                      <li className="flex items-start">
-                        <span className="text-blue-600 mr-2">•</span>
-                        <strong>Once Upon a Tine</strong> - Classic stories
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              {/* Videos & Media */}
-              <div>
-                <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mb-3 sm:mb-4">Videos & Media</h3>
-                <div className="grid sm:grid-cols-2 gap-4">
-                  <div className="bg-gray-50 rounded-lg p-4">
-                    <h4 className="font-semibold text-gray-800 mb-2">Videos & Films</h4>
-                    <ul className="space-y-2 text-gray-700">
-                      <li className="flex items-start">
-                        <span className="text-blue-600 mr-2">•</span>
-                        <em>Bowhunting October Whitetails</em> (1984)
-                      </li>
-                      <li className="flex items-start">
-                        <span className="text-blue-600 mr-2">•</span>
-                        <em>High Noon Bucks</em> series
-                      </li>
-                      <li className="flex items-start">
-                        <span className="text-blue-600 mr-2">•</span>
-                        <em>Primal Dreams</em> documentary
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="bg-gray-50 rounded-lg p-4">
-                    <h4 className="font-semibold text-gray-800 mb-2">Media Appearances</h4>
-                    <ul className="space-y-2 text-gray-700">
-                      <li className="flex items-start">
-                        <span className="text-blue-600 mr-2">•</span>
-                        Mossy Oak Pro Staff members
-                      </li>
-                      <li className="flex items-start">
-                        <span className="text-blue-600 mr-2">•</span>
-                        Featured in <em>Bowhunter Magazine</em>
-                      </li>
-                      <li className="flex items-start">
-                        <span className="text-blue-600 mr-2">•</span>
-                        <em>Traditional Bowhunter</em> contributors
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
+<section className="mb-8 sm:mb-12">
+  <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-4 sm:mb-6">Media & Contributions</h2>
+  <div className="bg-white rounded-lg shadow-sm p-4 sm:p-8">
+    <div className="grid gap-8">
+      {/* Books & Publications */}
+      <div className="border-b border-gray-200 pb-6 sm:pb-8">
+        <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mb-3 sm:mb-4">Books & Publications</h3>
+        <div className="grid sm:grid-cols-2 gap-4">
+          <div className="bg-gray-50 rounded-lg p-4">
+            <h4 className="font-semibold text-gray-800 mb-2">Gene's Books</h4>
+            <ul className="space-y-2 text-gray-700">
+              <li className="flex items-start"><span className="text-blue-600 mr-2">•</span><strong>Whitetails, Etc.</strong> (2024) – Latest and most comprehensive work</li>
+              <li className="flex items-start"><span className="text-blue-600 mr-2">•</span><strong>Buckskin and Bone</strong> (2009) – Advanced whitetail strategy</li>
+              <li className="flex items-start"><span className="text-blue-600 mr-2">•</span><strong>Come November</strong> (~2007) – 50 years of whitetail knowledge</li>
+              <li className="flex items-start"><span className="text-blue-600 mr-2">•</span><strong>One Man’s Whitetail</strong> (1988) – Personal hunting stories & lessons</li>
+              <li className="flex items-start"><span className="text-blue-600 mr-2">•</span><strong>Treestand Strategies</strong> (2000, with Barry) – Tactics & stand placement</li>
+              <li className="flex items-start"><span className="text-blue-600 mr-2">•</span><strong>Hunting Rutting Whitetails</strong> (1981) – Groundbreaking early book</li>
+            </ul>
           </div>
-        </section>
+          <div className="bg-gray-50 rounded-lg p-4">
+            <h4 className="font-semibold text-gray-800 mb-2">Barry's Books</h4>
+            <ul className="space-y-2 text-gray-700">
+              <li className="flex items-start"><span className="text-blue-600 mr-2">•</span><strong>The Old Man and the Tree</strong> (2023) – A lifetime of whitetail wisdom</li>
+              <li className="flex items-start"><span className="text-blue-600 mr-2">•</span><strong>Once Upon a Tine</strong> (~2010s) – Hunting stories & adventures</li>
+              <li className="flex items-start"><span className="text-blue-600 mr-2">•</span><strong>The Crooked Hat Chronicles</strong> – Humorous and heartfelt campfire tales</li>
+              <li className="flex items-start"><span className="text-blue-600 mr-2">•</span><strong>Treestand Strategies</strong> (2000, with Gene) – Bowhunting setups</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      {/* Videos & Media */}
+      <div>
+        <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mb-3 sm:mb-4">Videos & Media</h3>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="bg-gray-50 rounded-lg p-4 h-full">
+            <h4 className="font-semibold text-gray-800 mb-2">Videos & Films</h4>
+            <ul className="space-y-2 text-gray-700">
+              <li className="flex items-start">
+                <span className="text-blue-600 mr-2 flex-shrink-0">•</span>
+                <span><em>Bowhunting October Whitetails</em> (1984) – Groundbreaking VHS release</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-blue-600 mr-2 flex-shrink-0">•</span>
+                <span><em>High Noon Bucks</em> – Classic rut-hunting footage series</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-blue-600 mr-2 flex-shrink-0">•</span>
+                <span><em>Out and About</em> – Traditional bowhunting adventures</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-blue-600 mr-2 flex-shrink-0">•</span>
+                <span><em>Primal Dreams</em> – Award-winning traditional hunting documentary</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-blue-600 mr-2 flex-shrink-0">•</span>
+                <span><em>Essential Encounters</em> – Companion film to Primal Dreams</span>
+              </li>
+            </ul>
+          </div>
+          <div className="bg-gray-50 rounded-lg p-4 h-full">
+            <h4 className="font-semibold text-gray-800 mb-2">Media Appearances</h4>
+            <ul className="space-y-2 text-gray-700">
+              <li className="flex items-start">
+                <span className="text-blue-600 mr-2 flex-shrink-0">•</span>
+                <span>Longtime Mossy Oak Pro Staff members</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-blue-600 mr-2 flex-shrink-0">•</span>
+                <span>Featured in <em>Bowhunter Magazine</em> and <em>North American Whitetail</em></span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-blue-600 mr-2 flex-shrink-0">•</span>
+                <span>Regular contributors to <em>Traditional Bowhunter</em> magazine</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-blue-600 mr-2 flex-shrink-0">•</span>
+                <span>Guests on <em>Mossy Oak GameKeepers Podcast</em> (Ep. 284)</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-blue-600 mr-2 flex-shrink-0">•</span>
+                <span>Presenters at ETAR, PBS, Compton Traditional Bowhunters, and state expos</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
         {/* Legacy Section */}
         <section className="mb-8 sm:mb-12">
