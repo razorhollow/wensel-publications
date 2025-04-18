@@ -47,19 +47,6 @@ export default function HomePage() {
             </ul>
           </div>
         </section>
-
-        {/* Featured Image Section */}
-        <section className="mb-16">
-          <div className="max-w-4xl mx-auto">
-            <div className="aspect-w-16 aspect-h-9 bg-gray-200 rounded-lg overflow-hidden">
-              {/* Placeholder for featured hunting image */}
-              <div className="w-full h-full flex items-center justify-center text-gray-400">
-                <img src={brothersHeroAssetUrl} alt="Featured Hunting Image" className="w-full h-full object-cover" />
-              </div>
-            </div>
-          </div>
-        </section>
-        
         {/* Product Cards */}
         <section className="grid gap-8 md:grid-cols-2 max-w-5xl mx-auto mb-16">
           <ProductCard 
@@ -184,6 +171,18 @@ export default function HomePage() {
               </p>
               <p className="text-gray-900 font-semibold">- Mike Johnson</p>
               <p className="text-gray-600 text-sm">Professional Guide</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Featured Image Section */}
+        <section className="mb-16">
+          <div className="max-w-4xl mx-auto">
+            <div className="aspect-w-16 aspect-h-9 bg-gray-200 rounded-lg overflow-hidden">
+              {/* Placeholder for featured hunting image */}
+              <div className="w-full h-full flex items-center justify-center text-gray-400">
+                <img src={brothersHeroAssetUrl} alt="Featured Hunting Image" className="w-full h-full object-cover" />
+              </div>
             </div>
           </div>
         </section>
